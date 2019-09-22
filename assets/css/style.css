@@ -1,0 +1,228 @@
+.page{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+html,body{
+    background-image:url("../images/concrete-texture.png");
+    height:100%;
+    padding:0;
+    margin:0;
+    color: white;
+
+    
+}
+.navbar-light .navbar-brand{
+  margin-left: 15%;
+  background-color: #4aaaa5;
+  color:white;
+  padding: 25px;
+  
+}
+.navbar-nav{
+  margin-left: 55%;
+}
+.navbar{
+  padding-top:0;
+  padding-left:0;
+  padding-bottom:0;
+  padding-right:0;
+}
+.navbar-toggler{
+  margin-right:10%;
+}
+Contact{
+    float:right;
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+    padding: 25px 10px 10px 10px;
+    
+    color:#777777;
+    margin-right: 200px
+    
+}
+portfolio{
+    float: right;
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+    padding: 25px 10px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    
+}
+about{
+    float: right;
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+    padding: 25px 10px 10px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    
+}
+/* unvisited link */
+a:link {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    text-decoration:none;
+  }
+  
+  /* visited link */
+  a:visited {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    text-decoration:none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    text-decoration:none;
+  }
+  
+  /* selected link */
+  a:active {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    text-decoration:none;
+  }
+.square{
+    float:left;
+    width:100%;
+    height:80%;
+    top:10%;
+    left:0;
+    background:white;
+    padding: 0 25px 25px 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    margin-top: 10%;
+    margin-left: 0;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+img{
+    float:left;
+    width:100%;
+    height:100%;
+    padding: 5px 0px 25px 10px;
+ 
+}
+.img-fluid. {
+  max-width: 100%;
+  float:none;
+  
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+    line-height: 25px;
+}
+h2{
+    color:#4aaaa5;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+hr{
+    width:97%;
+    color:#777777;
+}
+form{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+}
+input[type=text]{
+  width:900px;
+}
+input.message{
+  height:130px;
+}
+.submit{
+    height:50px;
+}
+.tile1{
+  height:125px;
+  width:175px;
+  margin:0;
+}
+.img1{
+  height:125px;
+  width:175px;
+}
+.overlay1{
+  background-color:#4aaaa5;
+  width:175px;
+  height:40px;
+  color:white;
+  text-align:center;
+  position:relative;
+  bottom:-85px;
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  font-size:15px;
+  font-family:'Times New Roman', Times, serif;
+}
+.tile2{
+  position:relative;
+  left:200px;
+  top:-160px;
+  height:125px;
+  width:175px;
+}
+.img2{
+  height:100%;
+  width:100%;
+}
+.overlay2{
+  background-color:#4aaaa5;
+  width:175px;
+  height:40px;
+  color:white;
+  text-align:left;
+  position:relative;
+  bottom:-120px;
+}
+.tile3{
+  position:relative;
+  left:0px;
+  top:-160px;
+  height:125px;
+  width:175px;
+}
+.img3{
+  height:125px;
+  width:175px;
+}
+.overlay3{
+  background-color:#4aaaa5;
+  width:175px;
+  height:40px;
+  color:white;
+  text-align:left;
+  position:relative;
+  bottom:-120px;
+}
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 50px;
+  }
+  .push {
+    height: 15%;
+  }
+  .footer{
+    border-top: 10px #4aaaa5;
+    border-style: solid;
+    height:10%;
+    background-color:#666666;
+    width:100%;
+    text-align:center;
+    color: white; 
+    padding:20px 0 0 0;
+  }
